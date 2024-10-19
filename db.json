@@ -1,0 +1,25 @@
+{
+  "student": [
+    {
+      "id": "de38",
+      "stdid": "000",
+      "name": "Pooja Mishra",
+      "course": "PCM",
+      "fees": "43000"
+    },
+    {
+      "id": "55af",
+      "stdid": "005",
+      "name": "Himanshu",
+      "course": "java",
+      "fees": "33000"
+    },
+    {
+      "id": "c514",
+      "stdid": "102",
+      "name": "Neha",
+      "course": "Data Science",
+      "fees": "38000"
+    }
+  ]
+}
