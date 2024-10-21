@@ -35,28 +35,30 @@ const EditData=()=>{
     })
    }
     return(
-        <>
+        <div style={{  backgroundcolor: "#f9f9f9",  boxshadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}>
         <h1 style={{marginTop:"80px"}}> Edit Redcords :</h1>
         <form>
-          Std ID. : <input style={{width:"200px"}} type="text" name="stdid" 
+         Enter Std ID. : 
+          <br />
+          <input style={{width:"200px"}} type="text" name="stdid" 
          value={mydata.stdid} onChange={handleInput} />
          <br/>
          <br/>
-          Name : <input  style={{width:"200px"}} type="text" name="name" 
+         Enter Name :  <br /><input  style={{width:"200px"}} type="text" name="name" 
          value={mydata.name} onChange={handleInput} />
          <br/>
          <br/>
-          Course : <input  style={{width:"200px"}} type="text" name="course" 
+         Enter Course :  <br /> <input  style={{width:"200px"}} type="text" name="course" 
          value={mydata.course}  onChange={handleInput}/>
          <br/>
          <br/>
-          Fees : <input  style={{width:"200px"}} type="text" name="fees" 
+         Enter Fees :  <br /> <input  style={{width:"200px"}} type="text" name="fees" 
          value={mydata.fees} onChange={handleInput} />
          <br/>
          <br/>
          <button onClick={handleSubmit}>Update!</button>
          </form>
-        </>
+        </div>
     )
 }
 export default EditData;
