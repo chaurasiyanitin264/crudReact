@@ -9,7 +9,7 @@ const SearchByName = () => {
   const handleChange = (e) => {
     const empname = e.target.value;
     setSname(empname);
-
+// 
     if (empname.trim() === "") {
       setMydata([]);
       setNoRecordsFound(false);
