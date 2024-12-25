@@ -1,23 +1,9 @@
 {
   "student": [
     {
-      "id": "55af",
-      "stdid": "005",
-      "name": "Himanshi mehta",
-      "course": "java",
-      "fees": "33000"
-    },
-    {
-      "id": "c514",
-      "stdid": "102",
-      "name": "Neha",
-      "course": "Data Science",
-      "fees": "38000"
-    },
-    {
-      "id": "8d5e",
-      "stdid": "111",
-      "name": "Pratima",
+      "id": "f0ac",
+      "stdid": "1",
+      "name": "nitin",
       "course": "Java",
       "fees": "38000"
     }

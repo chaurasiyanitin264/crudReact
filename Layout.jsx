@@ -9,11 +9,6 @@ const Layout = () => {
         <>
             <Navbar bg="success" variant="dark" fixed='top' expand="lg" className="custom-navbar">
                 <Container>
-                    <img 
-                        style={{ height: "30px", backgroundColor: "aqua" }} 
-                        src="https://www.shutterstock.com/image-vector/id-card-icon-user-identity-260nw-516445126.jpg" 
-                        alt="Logo" 
-                    />
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto" style={{ marginLeft: "10px" }}>

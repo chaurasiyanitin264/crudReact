@@ -9,7 +9,7 @@ const SearchByName = () => {
   const handleChange = (e) => {
     const empname = e.target.value;
     setSname(empname);
-// 
+
     if (empname.trim() === "") {
       setMydata([]);
       setNoRecordsFound(false);
@@ -43,7 +43,7 @@ const SearchByName = () => {
         </tr>
       );
     }
-    return null; // Return null for unmatched items
+    return null; 
   });
 
   return (
@@ -56,7 +56,7 @@ const SearchByName = () => {
         placeholder="Type STD Name..."
         style={{
           padding: "10px",
-          width: "20%", // Adjusted width for better layout
+          width: "20%", 
           fontSize: "16px",
           border: "1px solid #ccc",
           borderRadius: "5px",

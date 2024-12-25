@@ -4,7 +4,7 @@ import { message } from "antd";
 import axios from "axios";
 const EditData=()=>{
     const {myid} =useParams();
-    const [mydata, setMydata]=useState({}); // mydata={}
+    const [mydata, setMydata]=useState({}); 
     const loadData=()=>{
       let api=`http://localhost:3000/student/${myid}`;
       axios.get(api).then((res)=>{

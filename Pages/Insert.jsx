@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import React from 'react';
 import { message } from "antd"; 
-// import './Insert.css'; // Add your CSS file
+
 
 const Insert = () => {
     const [input, setInput] = useState({

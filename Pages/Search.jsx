@@ -27,10 +27,14 @@ const Search = () => {
     })
     return (
         <>
-                Enter Search ID :<input style={{ width: "120px", margin: "20px",marginTop:"50px" }} type="text" value={search} onChange={handleInput} />
+            <br />
+            <br />
+            Enter Search ID :
+            <br />
+            <input placeholder="Type ID" style={{ width: "120px", margin: "10px", marginTop: "30px" }} type="text" value={search} onChange={handleInput} />
             {std.length === 0 && search && <div>No results found for "{search}"</div>}
             {std.length > 0 && (
-                    <table border="3" width="800px">
+                <table border="3" width="800px">
                     <tr>
                         <th>STD ID</th>
                         <th>Name</th>
